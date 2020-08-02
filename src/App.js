@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar'
 import Booklist from './components/Booklist'
+import Songlist from './components/SongList'
+
 import ThemeContextProvider from "./context/ThemeContext";
 import ThemeToggle from './components/ThemeToggle'
 import AuthContextProvider from "./context/AuthContext";
@@ -17,7 +19,14 @@ function App() {
         <ThemeToggle />
         </AuthContextProvider>
       </ThemeContextProvider>
-          </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      
+      <Songlist />
+    </div>
+
+
   );
 }
 
