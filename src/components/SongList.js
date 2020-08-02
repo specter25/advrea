@@ -1,5 +1,5 @@
 import React ,{useState ,useEffect} from 'react';
-import uuid from 'uuid/v1'
+import uuid from 'uuid/dist/v1'
 import NewSongForm from "./NewSongForm";
 
 const SongList = () => {
